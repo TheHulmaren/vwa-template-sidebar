@@ -1,5 +1,9 @@
 <template>
-  <div id="sideBar" class="from-bottom slide-in-out" :class="{opened:sidebarOpened}">Sidebar</div>
+  <div id="sideBar" class="from-right slide-in-out" :class="{opened:sidebarOpened}">
+  <div id="sideBarContent">
+    Sidebar
+  </div>
+  </div>
   <div id="appWrapper">
     <header>
       <button @click="toggleSidebar()">MENU</button>
