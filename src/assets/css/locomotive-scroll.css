@@ -73,6 +73,9 @@ html.has-scroll-dragging {
   margin: 2px;
   cursor: -webkit-grab;
   cursor: grab;
+
+  /* high z-index to avoid getting blocked by header */
+  z-index: 30;
 }
 
 .has-scroll-dragging .c-scrollbar_thumb {
