@@ -8,6 +8,8 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "locomotive-scroll": "^4.1.4",
+    "smooth-scrolling": "^2.3.12",
     "vue": "^3.2.47",
     "vue-router": "^4.1.6"
   },
